@@ -85,7 +85,7 @@ variable kms_root_key_name {
 
 variable cos_plan {
   description = "cloud object storage plan"
-  default     = "standard"
+  default     = "lite"
 }
 
 variable create_cos_bucket {
